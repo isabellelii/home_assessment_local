@@ -4,5 +4,6 @@
   <div>
     <%= image_tag user["avatar_url"]%></br>
     <p><%= user["login"]%></p>
+    <%= link_to "Details", user_path(user["login"]) %>
   </div>
 <% end %>
