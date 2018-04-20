@@ -5,7 +5,5 @@ Feature: List all github users on the landing page
 
   Scenario: View list of users on the landing page
     When I visit the site
-    Then I should see "Login" for all users
-    And I should see "Image" for all users
+    Then I should see "All users on Github"
     And I should see "Details" button for all users
-    
