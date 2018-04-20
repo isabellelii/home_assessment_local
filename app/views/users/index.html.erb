@@ -1,1 +1,3 @@
-<h1> See all users</h1>
+<% @users.each do |user|%>
+       <%= user["login"] %>
+     <%end%>
