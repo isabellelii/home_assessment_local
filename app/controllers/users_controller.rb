@@ -9,5 +9,4 @@ class UsersController < ApplicationController
     url=URI("https://api.github.com/users/#{params[:id]}")
     @user = JSON.parse(Net::HTTP.get(url))
   end
-
 end
