@@ -1,6 +1,4 @@
-<h1> All users on Github</h1>
-
 <% @users.each do |user|%>
-   <%= user["login"]%> 
-   <%= user["avatar_url"] %>
-<%end%>
+   <%= user["login"]%>
+   <%= image_tag user["avatar_url"] %>
+<% end %>
