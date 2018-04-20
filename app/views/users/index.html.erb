@@ -2,7 +2,7 @@
 
 <% @users.each do |user|%>
   <div>
-    <%= image_tag user["avatar_url"]%></br>
+    <%= image_tag user["avatar_url"] %>
     <p><%= user["login"]%></p>
     <%= link_to "Details", user_path(user["login"]) %>
   </div>
