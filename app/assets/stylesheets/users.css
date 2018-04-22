@@ -14,6 +14,15 @@ body {
 
 }
 
+.navbar-collapse {
+  background-color: transparent;
+  border: none;
+  width: 10px;
+  margin: 1px;
+  box-shadow: none;
+
+}
+
 img {
   height: 160px;
   width: 150px;
