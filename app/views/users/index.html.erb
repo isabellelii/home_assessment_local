@@ -1,7 +1,7 @@
 <h2>Users on Github</h2>
 
 <% @users.each do |user|%>
-  <div>
+  <div class="all">
     <%= image_tag user["avatar_url"] %>
     <p><%= user["login"]%></p>
     <%= link_to "Details", user_path(user["login"]) %>
