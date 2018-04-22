@@ -1,0 +1,49 @@
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2018/04/07/00/10/wall-3297440__340.jpg');
+
+}
+
+div {
+    border: 2px solid black;
+    padding: 25px;
+    margin-left: 490px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 30%;
+    background-color: #cfcfcf;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+img {
+  height: 160px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 110px;
+
+}
+
+p {
+  color: black;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 15px;
+
+}
+
+a:hover {
+  color: grey;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
+h4 {
+  font-size: 40px;
+  text-align: center;
+}
