@@ -1,6 +1,6 @@
 <div class="show">
-<img class="single"<%= image_tag @user["avatar_url"]%></br>
-<h3> Login: <%= @user["login"]%></br>
-User ID: <%= @user["id"]%></h3>
-<a class="url"<%= link_to @user["html_url"]%></a></br>
+  <img class="single"<%= image_tag @user["avatar_url"]%></br>
+  <h3> Login: <%= @user["login"]%></br>
+  User ID: <%= @user["id"]%></h3>
+  <a class="url"<%= link_to "Github account", @user["html_url"]%></a></br>
 </div>
