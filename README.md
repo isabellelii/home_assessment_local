@@ -13,6 +13,14 @@ Application which displays a list of Github users by using Github public API (ht
 - When details button is clicked a new page with information about the user is shown. Fields (id, avatar, login, html_url) with a back button to go back to the initial list of users.
 - Single user page should display the user data after refreshing the page.
 
+## Final result 
+- Project starts up correctly and compiles without errors.
+- A list of github users (avatar, login, details button) is displayed. 
+- When details button is clicked a new page with information about the user is shown. Fields (id, avatar, login, html_url) with a back button in the navbar title, to go back to the initial list of users.
+- Single user page should display the user data after refreshing the page.
+- Button on single user page that redirect to that user's Github account 
+
+
 ## Getting Started
 
 Interested in my codes?
@@ -44,6 +52,5 @@ Css
 
 ## Deployed to Heroku 
 
-```
 https://usersongithub.herokuapp.com/
-```
+
